@@ -1,0 +1,44 @@
+* ul {
+  list-style: none;
+  margin-top: 20px;
+  padding: auto;
+  text-align: center;
+}
+li {
+  display: inline;
+  background-color: darkturquoise;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+li:hover {
+  cursor: pointer;
+  background-color: chartreuse;
+}
+h2 {
+  color: red;
+}
+.last {
+  color: lime;
+}
+#title {
+  color: darkviolet;
+}
+video {
+  height: min-content;
+  width: min-content;
+}
+p {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blue;
+
+  line-height: 30px;
+  word-spacing: 15px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+ {
+  background-color: white;
+}

@@ -1,0 +1,18 @@
+p {
+  text-indent: 50px;
+  color: darkred;
+  font-size: 20px;
+  line-height: 30px;
+  word-spacing: 15px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-style: initial;
+  text-shadow: 1px 1px 1px;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+p::first-line {
+  color: black;
+}

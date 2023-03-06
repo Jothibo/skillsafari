@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="css types" />
+    <title>CSS types</title>
+    <style>
+      #first h2 ~ p {
+        color: blue;
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+      #first li {
+        display: inline;
+        color: darkgreen;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        padding: 20px;
+        margin: auto;
+      }
+      #second > p {
+        color: red;
+      }
+      #second ul {
+        color: palevioletred;
+      }
+      .last {
+        color: chartreuse;
+      }
+      #third h2 {
+        color: darkgoldenrod;
+      }
+      #third {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <h2>heading one</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quis
+        perferendis commodi libero magni a.
+      </p>
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>DESCRIPTION</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+    <div id="second">
+      <h2>heading two</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eos
+        cupiditate facere corrupti quasi!
+      </p>
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>DESCRIPTION</li>
+        <li>CONTACT</li>
+      </ul>
+    </div>
+    <div id="third">
+      <h2>heading three</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, enim!
+      </p>
+      <p class="last">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quas
+        quasi dolorem?
+      </p>
+      <ul>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>three</li>
+        <li>four</li>
+      </ul>
+    </div>
+  </body>
+</html>
