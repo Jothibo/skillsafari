@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Bus Ticket Booking</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Online Bus Ticket Booking</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Bus Schedule</a></li>
+          <li><a href="#">Book Ticket</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Bus Schedule</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Bus Route</th>
+              <th>Departure Time</th>
+              <th>Arrival Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>New York - Boston</td>
+              <td>08:00 AM</td>
+              <td>11:00 AM</td>
+            </tr>
+            <tr>
+              <td>Boston - New York</td>
+              <td>01:00 PM</td>
+              <td>04:00 PM</td>
+            </tr>
+            <!-- Add more rows for other bus routes -->
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Book Ticket</h2>
+        <form>
+          <label for="route">Bus Route:</label>
+          <select id="route" name="route">
+            <option value="ny-boston">New York - Boston</option>
+            <option value="boston-ny">Boston - New York</option>
+            <!-- Add more options for other bus routes -->
+          </select>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+          <label for="seats">Number of Seats:</label>
+          <input type="number" id="seats" name="seats" />
+          <button type="submit">Book Now</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Online Bus Ticket Booking</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
